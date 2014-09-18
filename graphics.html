@@ -1,0 +1,53 @@
+<HTML>
+<HEAD>
+<title>Галерея живописи и графики Ольги Фадеевой</title>
+<style media="all">
+@import url("http://artfolga.ru/css/gallery.css");
+</style>
+
+
+</HEAD>
+<BODY>
+
+<div id='outer-wrapper'>
+<div id='wrap2'>
+
+<!--[if IE]>
+<iframe src='http://artfolga.ru/menu_iframe.html' width='1100px' height='280px' scrollbar='no' frameborder='0'  style="position:relative;z-index:1;"></iframe>
+<![endif]-->
+
+<!--[if !IE]>
+<!--[else]-->
+<iframe src='http://artfolga.ru/menu_iframe.html' width='1100px' height='280px' scrollbar='no' frameborder='0'  style="position:relative;z-index:1;"></iframe>
+<![endif]-->
+
+<!--style media="all">
+@import url("http://mattn.kaoriya.net/css/jqGalViewII.css");
+</style-->
+
+<style media="all">
+@import url("http://artfolga.ru/css/jqGalViewII2.css");
+</style>
+
+<!--link charset='utf-8' href='http://art.folga.googlepages.com/css/jqGalViewII.css' media='screen' rel='stylesheet' type='text/css'/-->
+<!--script type="text/javascript" src="http://mattn.kaoriya.net/js/jquery-latest.js"></script-->
+
+<script src='http://artfolga.ru/js/jquery-latest.js' type='text/javascript'></script>
+<script type="text/javascript" src="http://artfolga.ru/js/jqAlbumParser.js"></script>
+<script type="text/javascript" src="http://artfolga.ru/js/jqGalViewII.WORK.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+    $(".jqAlbumParser").jqAlbumParser({
+        pluginExec : function(){$(this).jqGalViewII();}
+    }).click();
+});
+</script>
+
+<a href="http://picasaweb.google.com/data/feed/base/user/art.folga/albumid/5570622105154388929?kind=photo&alt=rss&hl=en_US" class="jqAlbumParser wa:picasa" rel="nofollow" style="display:none">graphics</a>
+
+</div>
+</div>
+
+</BODY>
+</html>
